@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using System.Runtime.InteropServices;
 
 namespace Reloj
 {
@@ -35,7 +36,6 @@ namespace Reloj
             dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
             dispatcherTimer.Start();
 
-
             DateTime myDt = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Unspecified);//obtiene datos fecha/hora
             string dtString = myDt.ToString(@"M/d/yyyy");//formato a entregar
             fecha_.Content = dtString;//setea fecha
@@ -55,6 +55,11 @@ namespace Reloj
         {
             this.Opacity = e.NewValue/10 > 0.1 ? e.NewValue/10  : 0.1;//Cambiar opacidad
 
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            this.Topmost = this.visible.IsChecked==true?true:false;
         }
     }
 }

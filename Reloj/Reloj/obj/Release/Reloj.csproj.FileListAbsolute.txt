@@ -1,0 +1,12 @@
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\bin\Release\Reloj.exe.config
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\bin\Release\Reloj.exe
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\bin\Release\Reloj.pdb
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\obj\Release\MainWindow.baml
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\obj\Release\MainWindow.g.cs
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\obj\Release\App.g.cs
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\obj\Release\Reloj_MarkupCompile.cache
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\obj\Release\Reloj.g.resources
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\obj\Release\Reloj.Properties.Resources.resources
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\obj\Release\Reloj.csproj.GenerateResource.Cache
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\obj\Release\Reloj.exe
+D:\REPOSITORIO GIT\Reloj\Reloj\Reloj\obj\Release\Reloj.pdb

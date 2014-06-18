@@ -8,20 +8,22 @@
     <Window.Foreground>
         <ImageBrush ImageSource="fondo.png"/>
     </Window.Foreground>
-    <Grid>
+    <Grid Name="grid">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="23*"/>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="177*"/>
+            <ColumnDefinition Width="191*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="8*"/>
-            <RowDefinition Height="41*"/>
-            <RowDefinition Height="7*"/>
-            <RowDefinition Height="14*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="77*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="29*"/>
         </Grid.RowDefinitions>
-        <Label Name="reloj_" Content="" FontSize="72" FontFamily="Futura LT Light" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="Red" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
-        <Label Name="fecha_" Content="" Margin="0" Grid.Row="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="16" Background="Red" Grid.ColumnSpan="2"/>
+        <Label Name="reloj_" Content="" FontSize="72" FontFamily="Futura LT Light" HorizontalContentAlignment="Center" Foreground="Red" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="2"/>
+        <Label Name="fecha_" Content="" Margin="0" Grid.Row="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="16" Background="Red" Grid.ColumnSpan="3"/>
         <Slider Name="opacity_" Margin="0" Orientation="Vertical" ValueChanged="opacity__ValueChanged" Value="5" Foreground="Red" Grid.Row="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Cursor="Hand"/>
+        <CheckBox Name="visible" Content="Siempre visible" Grid.Column="1" Margin="0" Grid.Row="2" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Red" HorizontalAlignment="Right" Width="177" Checked="CheckBox_Checked"/>
 
     </Grid>
 </Window>
